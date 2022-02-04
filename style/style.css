@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+#container{
+  margin: 0 auto;
+  border : 5px solid rgb(138, 74, 138);
+  width: 50%;
+  border-radius:0px 20px 0px 20px;
+  background: linear-gradient(#4a2c68, #a863ec);
+  background-repeat: no-repeat;
+}
+
+#container h1 {
+  margin-top:70px;
+  font-size: 28px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+#container form {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px
+}
+#textview{
+  width: 27%;
+  height: 25px;
+}
+#container table {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  margin-top: 5px;
+  padding: 16px;
+}
+input  {
+  margin-left: 2px;
+}
